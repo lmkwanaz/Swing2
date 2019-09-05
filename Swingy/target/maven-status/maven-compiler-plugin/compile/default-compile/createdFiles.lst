@@ -1,0 +1,13 @@
+Model/Hero.class
+Controller/HeroType.class
+Model/Spiderman.class
+Artifacts/Weapon.class
+Factory/HeroFactory.class
+WriteFile.class
+Controller/Main.class
+Artifacts/Armor.class
+Model/Enemy.class
+Model/Character.class
+Model/CaptainAmerica.class
+Model/Badman.class
+Model/Blackpanther.class
