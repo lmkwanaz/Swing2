@@ -5,7 +5,7 @@ import Artifacts.*;
 
 
 
-public class HeroType {
+public class Herotype {
 
     public static String selectHero(int type){
 

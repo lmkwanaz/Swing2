@@ -13,7 +13,7 @@ public class Weapon {
 
     }
 
-    public String getWeapon() {
+    public String getWeapon(Hero hero) {
 
         Random randomise = new Random();
 

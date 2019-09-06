@@ -8,4 +8,16 @@ public class Enemy extends Character {
         this.hit_points = hit_points;
     }
 
+    public void setHit_points(int hit_points){
+        this.hit_points = hit_points;
+    }
+
+    public int getHit_points(){
+        return hit_points;
+    }
+
+    public boolean YourDead(){
+        return hit_points <= 0;
+    }
+
 }

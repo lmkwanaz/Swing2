@@ -6,10 +6,10 @@ public class Blackpanther extends Hero{
         super();
         setName(name);
         setType("Blackpanther");
-        setLevel(15);
-        setAttack(15);
-        setDefense(15);
-        setExperience(15);
-        setHit_points(15);
+        setLevel(30);
+        setAttack(30);
+        setDefense(30);
+        setExperience(30);
+        setHit_points(30);
     }
 }

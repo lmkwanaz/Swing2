@@ -3,13 +3,13 @@ package Controller;
 import java.util.Scanner;
 
 import Factory.HeroFactory;
+
+import Artifacts.*;
 //import View.Map;
 //import util.WriteFile;
-import Model.Hero;
-import Model.Badman;
-import Model.Spiderman;
-import Model.CaptainAmerica;
-import Model.Blackpanther;
+import Model.*;
+import Controller.*;
+import View.ViewStatus;
 
 public class Main {
     static Scanner scan = new Scanner(System.in);
@@ -59,14 +59,30 @@ public class Main {
                     System.out.println("2.Blackpanther");
                     System.out.println("3.Spiderman");
                     System.out.println("4.CaptainAmerica");
-                    Scanner selecthero = new Scanner(System.in);
-                    int selectplayer = selecthero.nextInt();
-                    String storeplayer;
+                    System.out.println("5.exit");
+                    //Scanner selecthero = new Scanner(System.in);
+                    int selectplayertype = checkintstr.CheckInt("What are you waiting for???"+"\n");
+                    //int readytoselect = checkintstr.CheckInt();
+                    String storeplayertype;
+                    String savestrinfo;
 
-                    storeplayer	= selectHero(selectplayer);
-                    
+                    storeplayertype	= selectHero(selectplayertype);
+                    if(storeplayertype.equals("5")){
+                        System.exit(0);
+                    }
 
-                    Hero hero = HeroFactory.createHero(storeplayer, name);
+                    Weapon weapon = new Weapon();
+                    Armor armor = new Armor();
+
+                    Hero hero = HeroFactory.createHero(storeplayertype, name);
+
+                    ViewStatus.printstatus(hero);
+                    SaveInfo.Openfile();
+                    savestrinfo = hero.getType() +","+ hero.getName() +","+ hero.getLevel() +
+                            ","+hero.getAttack() +","+ hero.getHit_points();
+
+                    SaveInfo.writeToFile(savestrinfo);
+                    SaveInfo.closefile();
                 }
         }
     }

@@ -5,11 +5,11 @@ public class CaptainAmerica extends Hero{
         super();
         setName(name);
         setType("CaptainAmerica");
-        setLevel(25);
-        setAttack(25);
-        setDefense(25);
-        setExperience(25);
-        setHit_points(25);
+        setLevel(40);
+        setAttack(40);
+        setDefense(40);
+        setExperience(40);
+        setHit_points(40);
     }
 
 }

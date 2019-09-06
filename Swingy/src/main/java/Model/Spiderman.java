@@ -6,11 +6,11 @@ public class Spiderman extends Hero {
         super();
         setName(name);
         setType("Spiderman");
-        setLevel(20);
-        setAttack(20);
-        setDefense(20);
-        setExperience(20);
-        setHit_points(20);
+        setLevel(35);
+        setAttack(35);
+        setDefense(35);
+        setExperience(35);
+        setHit_points(35);
     }
 
 }

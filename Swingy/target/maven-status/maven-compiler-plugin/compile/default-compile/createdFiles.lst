@@ -1,13 +1,15 @@
 Model/Hero.class
-Controller/HeroType.class
+View/ViewStatus.class
 Model/Spiderman.class
 Artifacts/Weapon.class
 Factory/HeroFactory.class
-WriteFile.class
+Controller/SaveInfo.class
 Controller/Main.class
 Artifacts/Armor.class
 Model/Enemy.class
+Controller/Herotype.class
 Model/Character.class
 Model/CaptainAmerica.class
 Model/Badman.class
 Model/Blackpanther.class
+Model/checkintstr.class
