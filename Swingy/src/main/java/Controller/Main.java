@@ -18,6 +18,26 @@ public class Main {
     static int heroes;
     //static int select;
 
+    public static void prestart(Hero hero){
+        Scanner start = new Scanner(System.in);
+        int put;
+        System.out.println("1.would you like to start");
+        System.out.println("2.exit");
+        put = checkintstr.CheckInt("choose");
+
+        switch(put){
+            case 1:
+                //Level.levelUp(hero);
+            case 2:
+                System.exit(0);
+                break;
+            default:
+                System.out.println("invalid input");
+                break;
+        }
+
+    }
+
     public static String selectHero(int type){
 
         switch (type){
@@ -83,6 +103,8 @@ public class Main {
 
                     SaveInfo.writeToFile(savestrinfo);
                     SaveInfo.closefile();
+                    
+                    Main.prestart(hero);
                 }
         }
     }
