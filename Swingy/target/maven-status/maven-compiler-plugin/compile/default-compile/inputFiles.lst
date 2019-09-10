@@ -1,8 +1,11 @@
 /goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/Model/Hero.java
+/goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/Model/ExistingHeroes.java
 /goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/Model/Character.java
 /goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/Controller/Main.java
 /goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/Model/CaptainAmerica.java
+/goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/View/Attack.java
 /goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/Artifacts/Armor.java
+/goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/View/StatofHero.java
 /goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/View/ViewStatus.java
 /goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/Model/checkintstr.java
 /goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/Artifacts/Weapon.java
@@ -13,3 +16,4 @@
 /goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/Model/Badman.java
 /goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/Factory/HeroFactory.java
 /goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/Controller/SaveInfo.java
+/goinfre/lmkwanaz/IdeaProjects/Swingy/src/main/java/View/War.java

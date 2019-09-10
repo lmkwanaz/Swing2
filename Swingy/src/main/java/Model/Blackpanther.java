@@ -3,7 +3,7 @@ package Model;
 public class Blackpanther extends Hero{
 
     public Blackpanther(String name) {
-        super();
+        super(name);
         setName(name);
         setType("Blackpanther");
         setLevel(30);

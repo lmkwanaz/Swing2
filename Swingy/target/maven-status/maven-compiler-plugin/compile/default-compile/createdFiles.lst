@@ -5,11 +5,15 @@ Artifacts/Weapon.class
 Factory/HeroFactory.class
 Controller/SaveInfo.class
 Controller/Main.class
+Model/ExistingHeroes.class
 Artifacts/Armor.class
 Model/Enemy.class
 Controller/Herotype.class
+View/War.class
 Model/Character.class
 Model/CaptainAmerica.class
 Model/Badman.class
 Model/Blackpanther.class
+View/Attack.class
 Model/checkintstr.class
+View/StatofHero.class

@@ -1,12 +1,31 @@
 package Model;
 
+import Artifacts.Armor;
+import Artifacts.Weapon;
+//import com.sun.istack.internal.NotNull;
+
+
 public class Hero extends Character {
+    //@NotNull
+    //@size(min = 2, max = 20);
     private int id;
     private String name;
     private int level;
     private int experience;
     private String type;
+    protected int movement;
+    public int exes;
+    public int y_exes;
+    private Weapon weapon;
+    private Armor armor;
 
+    protected Hero(String name){
+        this.name = name;
+        this.experience = experience;
+    }
+
+    public int getMovement(){ return this.movement; }
+    public  void setMovement(int movement){ this.movement = movement; }
     public int getId() {
         return id;
     }
@@ -36,5 +55,9 @@ public class Hero extends Character {
     }
     public void setType(String type) {
         this.type = type;
+    }
+
+    public boolean Death() {
+        return hit_points <= 0;
     }
 }

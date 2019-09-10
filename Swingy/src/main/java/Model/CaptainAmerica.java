@@ -2,7 +2,7 @@ package Model;
 
 public class CaptainAmerica extends Hero{
     public CaptainAmerica(String name) {
-        super();
+        super(name);
         setName(name);
         setType("CaptainAmerica");
         setLevel(40);

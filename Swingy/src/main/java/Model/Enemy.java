@@ -20,4 +20,8 @@ public class Enemy extends Character {
         return hit_points <= 0;
     }
 
+    public boolean Death() {
+        return hit_points <= 0;
+    }
+
 }

@@ -61,6 +61,7 @@ public class Main {
 
         System.out.println("1.DO you want to create a hero");
         System.out.println("2.select from existing heroes");
+        System.out.println("3.exit");
         int select = scan.nextInt();
 
         switch(select){
@@ -106,6 +107,15 @@ public class Main {
                     
                     Main.prestart(hero);
                 }
+                break;
+            case 2:
+                Model.ExistingHeroes._typeofHero();
+                break;
+            case 3:
+                System.exit(0);
+            default:
+                System.out.println("Invalid");
+                break;
         }
     }
 }
