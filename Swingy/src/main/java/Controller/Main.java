@@ -5,29 +5,26 @@ import java.util.Scanner;
 import Factory.HeroFactory;
 
 import Artifacts.*;
-//import View.Map;
-//import util.WriteFile;
 import Model.*;
-import Controller.*;
-import View.ViewStatus;
+import View.*;
 
 public class Main {
     static Scanner scan = new Scanner(System.in);
     	static String name;
     static int selected;
     static int heroes;
-    //static int select;
+
 
     public static void prestart(Hero hero){
         Scanner start = new Scanner(System.in);
         int put;
         System.out.println("1.would you like to start");
         System.out.println("2.exit");
-        put = checkintstr.CheckInt("choose");
+        put = checkintstr.CheckInt("choose from prestart method");
 
         switch(put){
             case 1:
-                //Level.levelUp(hero);
+                Achieve.achieveUp(hero);
             case 2:
                 System.exit(0);
                 break;
@@ -81,9 +78,7 @@ public class Main {
                     System.out.println("3.Spiderman");
                     System.out.println("4.CaptainAmerica");
                     System.out.println("5.exit");
-                    //Scanner selecthero = new Scanner(System.in);
                     int selectplayertype = checkintstr.CheckInt("What are you waiting for???"+"\n");
-                    //int readytoselect = checkintstr.CheckInt();
                     String storeplayertype;
                     String savestrinfo;
 

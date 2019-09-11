@@ -18,7 +18,7 @@ public class War {
             Thread.sleep(1000);
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
-            System.out.println("INTERUPTED DELAY");
+            System.out.println("There's a DELAY!");
         }
 
         while (!enemy.Death() && !hero.Death())
@@ -40,13 +40,13 @@ public class War {
     }
 
     private void victory() {
-        System.out.println("You are the ultimate warrior.");
+        System.out.println("You are a warrior.");
         System.out.println("You Have leveled up.." );
         System.out.println("LEVEL : " + hero.getLevel() + " Experience : " + hero.getExperience() + "\n");
     }
 
     private void defeat() {
-        System.out.println("You're Good...but Not That Good.");
+        System.out.println("You are not that bad!.");
         System.out.println("########## GAME OVER ###########\n");
         System.exit(0);
     }

@@ -6,41 +6,41 @@ public class checkintstr {
     //   support methods
     //*******************************
     //Method to display the user's prompt string
-    public static void printPrompt(String prompt) {
+    private static void printPrompt(String prompt) {
         System.out.print(prompt + " ");
         System.out.flush();
     }
 
     //Method to make sure no data is available in the
     //input stream
-    public static void inputFlush() {
-        int dummy;
+    private static void inputFlush() {
+        int readman;
         int bAvail;
 
         try {
             while ((System.in.available()) != 0)
-                dummy = System.in.read();
+                readman = System.in.read();
         } catch (java.io.IOException e) {
             System.out.println("Input error");
         }
     }
-    public static  String CheckString() {
+    private static  String CheckString() {
         int aChar;
         String s = "";
-        boolean finished = false;
+        boolean aboutString = false;
 
-        while (!finished) {
+        while (!aboutString) {
             try {
                 aChar = System.in.read();
                 if (aChar < 0 || (char) aChar == '\n')
-                    finished = true;
+                    aboutString = true;
                 else if ((char) aChar != '\r')
-                    s = s + (char) aChar; // Enter into string
+                    s = s + (char) aChar;
             }
 
             catch (java.io.IOException e) {
                 System.out.println("Input error");
-                finished = true;
+                aboutString = true;
             }
         }
         return s;

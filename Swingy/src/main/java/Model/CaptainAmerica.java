@@ -8,7 +8,7 @@ public class CaptainAmerica extends Hero{
         setLevel(40);
         setAttack(40);
         setDefense(40);
-        setExperience(40);
+        setExperience(1000);
         setHit_points(40);
     }
 

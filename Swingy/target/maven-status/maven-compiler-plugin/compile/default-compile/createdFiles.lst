@@ -1,11 +1,14 @@
 Model/Hero.class
+View/Achieve.class
 View/ViewStatus.class
 Model/Spiderman.class
 Artifacts/Weapon.class
+Model/Map.class
 Factory/HeroFactory.class
 Controller/SaveInfo.class
 Controller/Main.class
 Model/ExistingHeroes.class
+View/LetFight.class
 Artifacts/Armor.class
 Model/Enemy.class
 Controller/Herotype.class

@@ -8,7 +8,7 @@ public class Badman extends Hero{
         setLevel(50);
         setAttack(50);
         setDefense(50);
-        setExperience(50);
+        setExperience(1010);
         setHit_points(50);
 
     }

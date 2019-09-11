@@ -3,7 +3,8 @@ package Model;
 import Artifacts.*;
 import Controller.*;
 import Factory.HeroFactory;
-import Model.*;
+import View.Achieve;
+
 import java.util.*;
 
 public class ExistingHeroes {
@@ -40,12 +41,12 @@ public class ExistingHeroes {
         System.out.println("\n");
         System.out.println("1.Start Game");
         System.out.println("2.Exit");
-        choose = checkintstr.CheckInt("Select option : ");
+        choose = checkintstr.CheckInt("choose from the above : ");
 
         switch (choose) {
             case 1:
                 System.out.println("\n##########START GAME###########\n");
-                //Level.levelUp(hero);
+                Achieve.achieveUp(hero);
 
             case 2:
                 break;
