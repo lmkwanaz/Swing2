@@ -2,15 +2,15 @@ package Model;
 
 public class Spiderman extends Hero {
 
-    public Spiderman(String name) {
+    public  Spiderman(String name) {
         super(name);
         setName(name);
         setType("Spiderman");
-        setLevel(35);
-        setAttack(35);
-        setDefense(35);
-        setExperience(1000);
-        setHit_points(35);
+        setLevel(0);
+        setAttack(124);
+        setDefense(33);
+        setExperience(20);
+        setHit_points(100);
     }
 
 }

@@ -5,11 +5,11 @@ public class Badman extends Hero{
         super(name);
         setName(name);
         setType("Badman");
-        setLevel(50);
-        setAttack(50);
-        setDefense(50);
-        setExperience(1010);
-        setHit_points(50);
+        setLevel(40);
+        setAttack(40);
+        setDefense(40);
+        setExperience(80);
+        setHit_points(40);
 
     }
 }

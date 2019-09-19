@@ -2,17 +2,15 @@ package Model;
 
 public class checkintstr {
 
-    //*******************************
-    //   support methods
-    //*******************************
-    //Method to display the user's prompt string
+
+    //funct to display the user's prompt string
     private static void printPrompt(String prompt) {
         System.out.print(prompt + " ");
         System.out.flush();
     }
 
-    //Method to make sure no data is available in the
-    //input stream
+    //funct to make sure no data is available in the
+
     private static void inputFlush() {
         int readman;
         int bAvail;

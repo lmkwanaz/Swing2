@@ -1,4 +1,2 @@
-Spiderman,lwandie\,35,35,35
-Badman,lwandile,50,50,50
-Spiderman,neo,35,35,35
-Blackpanther,gwen,30,30,30
+Spiderman,Mk,1,124,100,21
+Badman,Go,41,40,40,81

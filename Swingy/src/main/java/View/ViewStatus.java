@@ -16,6 +16,7 @@ public class ViewStatus {
             System.out.println("Health :" + hero.getHit_points());
             System.out.println("Level :" + hero.getLevel());
             System.out.println("Attack :" + hero.getAttack());
+            System.out.println("Experience :" + hero.getExperience());
             System.out.println("Defense :" + hero.getDefense());
             System.out.println("Weapon :" + weapon.getWeapon(hero));
             System.out.println("Armor :" + armor.getArmor(hero));

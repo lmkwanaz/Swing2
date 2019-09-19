@@ -146,13 +146,13 @@ public class Hero extends Character {
         this.name = name;
     }
     public int getLevel() {
-        return level;
+        return level++;
     }
     public void setLevel(int level) {
         this.level = level;
     }
     public int getExperience() {
-        return experience;
+        return experience++;
     }
     public void setExperience(int experience) {
         this.experience = experience;

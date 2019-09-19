@@ -95,7 +95,8 @@ public class Main {
                     ViewStatus.printstatus(hero);
                     SaveInfo.Openfile();
                     savestrinfo = hero.getType() +","+ hero.getName() +","+ hero.getLevel() +
-                            ","+hero.getAttack() +","+ hero.getHit_points();
+                            ","+hero.getAttack() +","+ hero.getHit_points()+","+ hero.getExperience();
+
 
                     SaveInfo.writeToFile(savestrinfo);
                     SaveInfo.closefile();

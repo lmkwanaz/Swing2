@@ -42,7 +42,7 @@ public class War {
     private void victory() {
         System.out.println("You are a warrior.");
         System.out.println("You Have leveled up.." );
-        System.out.println("LEVEL : " + hero.getLevel() + " Experience : " + hero.getExperience() + "\n");
+        System.out.println("LEVEL : " + hero.getLevel() + " Experience : " + hero.getExperience()+1 + "\n");
     }
 
     private void defeat() {

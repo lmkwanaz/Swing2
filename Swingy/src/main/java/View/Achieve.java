@@ -6,7 +6,7 @@ public class Achieve {
 
     public static void achieveUp(Hero hero){
 
-        if (hero.getExperience() <= 1000 ){
+        if (hero.getExperience() <= 100 ){
             Map.buildMap();
 
             Enemy[] enemy = new Enemy[4];
@@ -31,7 +31,7 @@ public class Achieve {
 
             }
 
-        }else if (hero.getExperience() >= 2450){
+        }else if (hero.getExperience() > 100 ){
 
             Map.buildMap();
             Enemy[] enemy = new Enemy[8];
@@ -57,7 +57,7 @@ public class Achieve {
 
             }
 
-        }else if (hero.getExperience() >=  4800){
+        }else if (hero.getExperience() < 200 ){
             Map.buildMap();
             Enemy[] enemy = new Enemy[12];
 
@@ -81,7 +81,7 @@ public class Achieve {
 
             }
 
-        }else if (hero.getExperience() <=  8050){
+        }else if (hero.getExperience() >= 200){
             Map.buildMap();
             Enemy[] enemy = new Enemy[16];
 
@@ -106,7 +106,7 @@ public class Achieve {
 
             }
 
-        }else if (hero.getExperience() <= 12200){
+        }else if (hero.getExperience() < 0){
             Map.buildMap();
             Enemy[] enemy = new Enemy[20];
 

@@ -41,10 +41,12 @@ public class Enemy extends Character {
         numOfMonsters++;
     }
 
+    @Override
     public void setHit_points(int hit_points){
         this.hit_points = hit_points;
     }
 
+    @Override
     public int getHit_points(){
         return hit_points;
     }
